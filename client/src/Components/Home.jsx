@@ -20,7 +20,7 @@ const Home=()=>{
   const key = 'updatable';
 
 
-   const handleInput=(e)=>{ 
+   const handleInput=(e)=>{
       let name=e.target.name;
       let value=e.target.value;
       setInput(values=>({...values, [name]:value}))
